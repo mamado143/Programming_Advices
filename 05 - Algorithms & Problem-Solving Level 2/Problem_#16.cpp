@@ -27,7 +27,7 @@ void PrintWordFromAAAtoZZZ()
                word = ""; 
            }
         }
-        cout << "\n";
+            cout << "\n____________________________\n";
     }
 }
 /**
