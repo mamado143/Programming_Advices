@@ -38,12 +38,23 @@ int frequency_digits(short DigitToCheck, int number)
     }
     return frequency;
 }
-int main()
+void Print_all_frequency(int number)
+{
+    short Digit_frequency = 0;
+    for (int i = 0; i < 10; i++)
+    {
+        Digit_frequency = frequency_digits(i, number);
+        if (Digit_frequency > 0)
+        {
+            cout<<"\nDigit "<<i<<" frequency digist is "<< Digit_frequency<<" 2Times(s)\n";
+        }
+    }
+}
+int main(void)
 {
     int Number = Read_number("Please enter the main number?");
-    short DigitToChdeck = Read_number("Please enter one digit to check?");
-    cout << "\nDigit " << DigitToChdeck << " Frequency is "
-         << frequency_digits(DigitToChdeck, Number) << " Time(s).\n";
+    Print_all_frequency(Number);
+    
     return 0;
 }
 
