@@ -4,7 +4,7 @@ using namespace std;
  * @brief - Write a program a digit and a number, then print the
  * - the freguency in that number; Input:12232 output: 3 times freq
  *
- * @file Problem_#6.cpp
+ * @file Problem_#8.cpp
  * @author Mohamed Dahir Mohamoud
  *
  * @string: is the message which reading from the user.
